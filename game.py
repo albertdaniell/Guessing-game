@@ -22,7 +22,15 @@ def guess():
             print("You guess it in : ", str(guesses) + " guesses")
             break
     if number !=number_guessed:
-            print("You loose, the number is "+ str(number))
+
+        print("You loose, the number is "+ str(number))
+        repeat= input("Do you want to play again? Click y for yes and n for no: ")
+        if repeat == 'y':
+            guess()
+        else:
+            print("You have terminated the game!")
+
+
 
 
 
