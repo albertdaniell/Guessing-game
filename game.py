@@ -24,8 +24,8 @@ def guess():
     if number !=number_guessed:
 
         print("You loose, the number is "+ str(number))
-        repeat= input("Do you want to play again? Click y for yes and n for no: ")
-        if repeat == 'y':
+        repeat_prompt= input("Do you want to play again? Click y for yes and n for no: ")
+        if repeat_prompt == 'y':
             guess()
         else:
             print("You have terminated the game!")
