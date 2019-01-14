@@ -6,7 +6,7 @@ number=random.randint(1,99)
 def guess():
     guesses = 0
 
-    print("This is round " + str(round))
+
     while guesses < 5:
 
 
